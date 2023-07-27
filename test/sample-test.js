@@ -34,7 +34,7 @@ before(async function () {
   
   })
 
-  it("should change x to Ho", async function () {
+  it("should change str to Ho", async function () {
     // modify x from 10 to 1337 via this function!
     await contract.modifyToLeet();
   
